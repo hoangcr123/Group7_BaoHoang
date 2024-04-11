@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tin tức - Di Động Việt</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tintuc.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="body-tintuc">
+            <div class="tintuc-info">
+                <a href="https://hoangcamranh.blogspot.com/2024/04/anh-gia-smartphone-chip-s660-ram-8-gb.html" target="_blank">
+                    <img src="img/tintuc/tintuc1.png">
+                    <h2>Đánh giá smartphone chip S660, RAM 8 GB, giá 6tr999 tại Việt Nam</h2>
+                </a>
+                <br/>
+                <h5>Doanh ngiệp &emsp; Ngày viết : 18 tháng 03 năm 2024 lúc 9:00</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://hoangcamranh.blogspot.com/2024/04/kham-pha-smartphone-man-hinh-gap-uoc-au.html" target="_blank">
+                    <img src="img/tintuc/tintuc2.png">
+                    <h2>Khám phá smartphone màn hình gập được đầu tiên của Samsung vào năm 2024</h2>
+                </a>
+                <br/>
+                <h5>Thanh niên &emsp; Ngày viết : 19 tháng 03 năm 2024 lúc 10:00</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://hoangcamranh.blogspot.com/2024/04/doanh-so-iphone-xs-va-iphone-xr-tham.html" target="_blank">
+                    <img src="img/tintuc/tintuc3.png">
+                    <h2>Doanh số iPhone XS và iPhone XR thảm hại, Apple sản xuất lại iPhone X sau năm 2020</h2>
+                </a>
+                <br/>
+                <h5>VOV &emsp; Ngày viết : 29 tháng 03 năm 2024 lúc 20:00</h5>
+            </div>
+            <div class="tintuc-info">
+                <a href="https://hoangcamranh.blogspot.com/2024/04/chiec-ien-thoai-thong-minh-nay-cua-lg.html" target="_blank">
+                    <img src="img/tintuc/tintuc4.png">
+                    <h2>Chiếc điện thoại thông minh này của LG sẽ có tới 16 Camera</h2>
+                </a>
+                <br/>
+                <h5>VietQ &emsp; Ngày viết : 11 tháng 03 năm 2024 lúc 12:00</h5>
+            </div>
+            <div class="tintuc-info" style="border-bottom: 0;">
+                <a href="https://hoangcamranh.blogspot.com/2024/04/nhung-tieu-chi-lua-chon-noi-sua-iphone.html" target="_blank">
+                    <img src="img/tintuc/tintuc5.png" height="148px" width="224px;">
+                    <h2>Những tiêu chí lựa chọn nơi sửa iPhone uy tín chuyên nghiệp                    </h2>
+                </a>
+                <br/>
+                <h5>Zing &emsp; Ngày viết : 15 tháng 03 năm 2024 lúc 14:00</h5>
+            </div> 
+
+        </div>
+
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
