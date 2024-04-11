@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giới thiệu - Di Động Việt</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+        
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/gioithieu.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+	<script src="js/dungchung.js"></script>
+    <script>
+        window.onload = function () {
+            khoiTao();
+            // thêm tags (từ khóa) vào khung tìm kiếm
+            var tags = ["Samsung", "iPhone", "Huawei", "Oppo", "Mobi"];
+            for (var t of tags) addTags(t, "index.html?search=" + t);
+        }
+    </script>
+
+</head>
+
+<body>
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh">
+        <script> addHeader(); </script>
+
+        <div class="page-gt">
+            <h4 class="page-header">
+                Giới thiệu
+            </h4>
+            <div class="page-info">
+                <p> Hệ thống bán lẻ di động, Phụ kiện chính hãng. Đại lý Uỷ quyền chính thức của Apple tại Việt Nam
+                </p>
+                <br />
+                <p>
+                    Di Động Việt tự hào trở thành sự lựa chọn của hơn 600 Người nổi tiếng và hàng triệu khách hàng, là hệ thống tiên phong cho chương trình Trade-in thu cũ đổi mới tại Việt Nam.
+.<br />
+                    Bên cạnh đó là đội ngũ nhân viên nhiệt tình chu đáo và đầy kinh nghiệm của chúng tôi luôn đưa được
+                    ra cho khách hàng những thông tin có giá trị và giúp khách hàng lựa chọn được những sản phẩm phù
+                    hợp nhất.<br />
+                    Với hơn 60 cửa hàng trên toàn quốc, Di Động Việt với tư cách Đại lý uỷ quyền chính thức của Apple tại Việt Nam, đối tác toàn diện của Samsung, Oppo, Xiaomi... cùng các thương hiệu phụ kiện nổi tiếng Energizer, Anker... hoạt động theo phương châm CHẤT LƯỢNG HOÀN HẢO, HẬU MÃI DÀI LÂU, GIÁ CẢ ĐI ĐẦU..<br />
+                    Chúng tôi xin chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ ủng hộ chúng tôi.<br />
+                    
+                    ------------------------------------------------------------------------------------------------------------------------------------------------
+                  
+                </p>
+                
+                <b>Thông tin liên hệ</b>
+                <ul class="tuyendung-noidung">
+                    <li>Trang chủ Facebook: 
+                        <a href="https://web.facebook.com/profile.php?id=61558186415171" target="_blank">
+                            <span>Facebook/banhangdidong</span>
+                        </a>
+                    </li>
+                <ul class="tuyendung-noidung">
+                    <li>Trang Youtube: 
+                        <a href="https://www.youtube.com/@duongde_official" target="_blank">
+                            <span>Youtube/Doitacdoanhnghiep</span>
+                        </a>
+                    </li>
+                    
+                <ul class="tuyendung-noidung">
+                    <li>Trang Github Nguyễn Bảo Hoàng: 
+                        <a href="https://github.com/hoangcr123" target="_blank">
+                            <span>Github</span>
+                        </a>
+                    </li>
+            </div>
+        </div>
+    </section>
+
+    <script> addContainTaiKhoan(); </script>
+
+    <div class="footer">
+        <script>addFooter();</script>
+        
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+</body>
+
+</html>
